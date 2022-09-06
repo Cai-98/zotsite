@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-plus:before {
+  content: "\EA7D";
+}
+.glyphicon-minus:before {
+  content: "\EA6F";
+}
+.glyphicon-pencil:before {
+  content: "\EBF5";
+}
+.glyphicon-floppy-disk:before {
+  content: "\EB0C";
+}
+.glyphicon-file:before {
+  content: "\EB2A";
+}
+.glyphicon-paperclip:before {
+  content: "\EEDB";
+}
+.glyphicon-book:before {
+  content: "\EF0F";
+}
+.glyphicon-font:before {
+  content: "\EB2A";
+}
+.glyphicon-bookmark:before {
+  content: "\EEF9";
+}
+.glyphicon-education:before {
+  content: "\EAD7";
+}
+.glyphicon-certificate:before {
+  content: "\EAD6";
+}
+.glyphicon-text-background:before {
+  content: "\EBF5";
+}
+
+.glyphicon-unchecked::before {
+  content: "\EB2A";
+}
